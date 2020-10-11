@@ -5,4 +5,5 @@ Created divs in all pages for paragraphs<br>
 Seperate HTML, CSS, JS files are used, css and js pages are present in different folders<br>
 Used javascript in faq.html and contact.html for displaying date and time<br>
 Used toggle method using jquery in faq.html<br>
+Used Sofia font family from external google link<br>
 All the pages are created based on Responsiveness
