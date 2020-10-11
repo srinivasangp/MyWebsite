@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/style.css" rel="stylesheet"/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+<script src="js/faq.js"></script>
+<title>Contact</title>
+</head>
+<body>
+
+<div class="container">
+
+<nav>
+  <ul>
+      <li><a href="index.html">About Vegan Diet</a></li>
+    <li><a href="origin.html">Origins</a></li>
+    <li><a class="active" href="contact.html">Contact</a></li>
+	<li><a href="faq.html">FAQ</a></li>
+  </ul>
+</nav>
+
+<article>
+<br><br><br>
+
+<h1 style="text-align:center;">Contact Us To Know More About Vegan Food</h1>
+
+<button type="button" class="btnStyls"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+
+  <form action="#">
+    <label>First Name</label><br>
+    <input type="text" name="fname" required><br>
+
+    <label>Last Name</label><br>
+    <input type="text" name="lname" required><br>
+
+    <label>Country</label><br>
+    <select name="country">
+	  <option value="">Select</option>
+      <option value="India">India</option>
+      <option value="canada">Israel</option>
+      <option value="usa">USA</option>
+    </select><br>
+
+    <label>Subject</label><br>
+    <textarea name="comment" style="height:200px" required></textarea><br>
+
+    <input type="submit" value="Submit" class="btnStyls" ><br><br>
+  </form>
+
+	</article>
+
+<footer>All Rights Reserved</footer>
+
+</div>
+
+
+</body>
+</html>
