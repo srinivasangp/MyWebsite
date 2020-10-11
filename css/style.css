@@ -1,0 +1,118 @@
+body{  
+    margin: 0px;
+  background-color: #F6F4F0;
+  /*font-family: "Lucida Console", Courier, monospace;*/
+   font-family: "Sofia";
+       letter-spacing: 1px;
+  }
+.container {
+    width:100%;
+}
+
+ footer {
+    padding: 1em;
+    color: white;
+	Font-weight:600;
+    background-color: #4caf50;
+    text-align: center;
+}
+
+nav {
+    float: left;
+	background-color: #f1f1f1;
+
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4CAF50;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight:600;
+}
+
+nav .active {
+  background-color: #F44336;
+}
+
+nav ul a:hover{
+	background-color: #F44336;
+    color: #fff;
+}
+
+article {
+	width: 65%;
+    margin: auto;
+    padding: 0em 2em;
+    overflow: hidden;
+	background-color: #ffffff;
+	text-align: justify;
+}
+header h1 {
+	text-transform:uppercase;
+	letter-spacing:4px;
+}
+article h1 {
+    color: #795548;
+    margin-bottom: 1em;
+	}
+.first{
+    float: left;
+    width: 44%;
+    padding: 1em 2em;
+	line-height: 2em;
+	font-size: 17px;
+	}
+.second{
+    float: left;
+    width: 30%;
+	padding: 4em;
+}
+/*Contact Form Styles*/
+label{font-weight:600;}
+input, select, textarea {
+  width: 60%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.btnStyls {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  font-weight:600;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/*Faq Page Styles*/
+#panel, #flip, #panel1, #flip1, #panel2, #flip2, #panel3, #flip3, #panel4, #flip4, #panel5, #flip5 {
+  padding: 0em 2em;
+  background-color: #e5eecc;
+  border: solid 1px #c3c3c3;
+}
+#flip, #flip1, #flip2, #flip3, #flip4, #flip5{font-weight:600;cursor: pointer;}
+#panel, #panel1, #panel2, #panel3, #panel4, #panel5  {
+  padding: 0em 2em;
+  display: none;
+}
+
+	
